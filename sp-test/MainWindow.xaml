@@ -1,15 +1,21 @@
 ﻿<Window
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:sp_test"
-        xmlns:shannon_palette="clr-namespace:shannon_palette;assembly=shannon-palette" x:Class="sp_test.MainWindow"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+    x:Class="sp_test.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:sp_test"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ui="clr-namespace:shannon_palette;assembly=shannon-palette"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
     <Grid>
 
-        <shannon_palette:Button HorizontalAlignment="Left" Margin="360,174,0,0" VerticalAlignment="Top"/>
+        <ui:Button
+            Margin="360,174,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top" />
 
     </Grid>
 </Window>
